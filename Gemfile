@@ -24,3 +24,9 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
+
+group :development, :test do
+  gem 'guard-spork', '1.2.0'
+   gem 'childprocess', '0.3.6'
+  gem 'spork', '0.9.2'
+end
